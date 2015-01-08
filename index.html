@@ -23,13 +23,12 @@
   <body>
     <div class="wrapper">
       <img src="app/images/phone.png" class="phone animated bounceInLeft" />
-
-            <form name="MailchimpSubscriptionForm" ng-controller="MailchimpSubscriptionCtrl" ng-class="{success: mailchimp.result === 'success'}">
-              <div ng-hide="mailchimp.result === 'success'" class="form-container">
-                <input class="hidden" type="hidden" ng-model="mailchimp.username" ng-init="mailchimp.username='erictherobot'">
-                <input class="hidden" type="hidden" ng-model="mailchimp.dc" ng-init="mailchimp.dc='us9'">
-                <input class="hidden" type="hidden" ng-model="mailchimp.u" ng-init="mailchimp.u='a3ebf276a280d2f7e5336afe1'">
-                <input class="hidden" type="hidden" ng-model="mailchimp.id" ng-init="mailchimp.id='ceed21449b'">
+      <form name="MailchimpSubscriptionForm" ng-controller="MailchimpSubscriptionCtrl" ng-class="{success: mailchimp.result === 'success'}">
+        <div ng-hide="mailchimp.result === 'success'" class="form-container">
+          <input class="hidden" type="hidden" ng-model="mailchimp.username" ng-init="mailchimp.username='erictherobot'">
+          <input class="hidden" type="hidden" ng-model="mailchimp.dc" ng-init="mailchimp.dc='us9'">
+          <input class="hidden" type="hidden" ng-model="mailchimp.u" ng-init="mailchimp.u='a3ebf276a280d2f7e5336afe1'">
+          <input class="hidden" type="hidden" ng-model="mailchimp.id" ng-init="mailchimp.id='ceed21449b'">
 
           <h1 class='animated bounceInDown'>Get An Intern</h1>
           <p class='tagline animated bounceInDown'>Join the wait list below</p>
